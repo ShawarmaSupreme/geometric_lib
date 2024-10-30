@@ -96,13 +96,13 @@ triangle_perimeter = perimeter(a, b)
 ```
 
 # change log
-- commit be43a51c0aac1c80df879375e520038b553ad785
+- commit [be43a51c0aac1c80df879375e520038b553ad785](https://github.com/smartiqaorg/geometric_lib/commit/c945964b7b6b05575b7464ce86b3e278651ba45f)
 - Author: Gleb <408820@edu.itmo.ru>
 - Date:   Thu Sep 19 09:13:45 2024 +0300
 
 #### Добавлен новый файл triangle.py
 
-- commit c945964b7b6b05575b7464ce86b3e278651ba45f
+- commit [c945964b7b6b05575b7464ce86b3e278651ba45f](https://github.com/smartiqaorg/geometric_lib/commit/be43a51c0aac1c80df879375e520038b553ad785)
 - Author: Gleb <408820@edu.itmo.ru>
 - Date:   Thu Sep 19 09:12:13 2024 +0300
 

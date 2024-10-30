@@ -4,6 +4,9 @@ def area(a, h):
     :param a (int): First side of the triangle
     :param h (int): Second side of the triangle
     :return: Area of the triangle (int)
+
+    area(10, 5)
+    return: 25
     '''
     return a * h / 2
 
@@ -14,6 +17,9 @@ def perimeter(a, b, c):
     :param b (int): Second side of the triangle
     :param c (int): Third side of the triangle
     :return: Perimeter of the triangle (int)
+
+    perimeter(10, 5, 3)
+    return: 18
     '''
     if a > 0 and b > 0 and c > 0:
         return a + b + c

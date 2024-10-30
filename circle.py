@@ -6,6 +6,9 @@ def area(r):
     Calculate the area
     r (int): radius of the circle
     :return: area (int)
+
+    area(10)
+    return: 100*pi
     '''
     return math.pi * r * r
 
@@ -15,6 +18,9 @@ def perimeter(r):
     perimeter of a circle
     r (int): radius of the circle
     :return: perimeter (int)
+
+    perimeter(10)
+    return: 20*pi
     '''
     return 2 * math.pi * r
 

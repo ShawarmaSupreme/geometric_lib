@@ -3,6 +3,9 @@ def perimeter(a, b):
     Calculates the perimeter of a perimeter of a rectangle
     a, b (int): width and height
     returns perimeter of a rectangle (int)
+
+    perimeter(10, 5)
+    return: 30
     '''
     if a > 0 and b > 0:
         return 2 * (a + b)
@@ -14,6 +17,9 @@ def area(a, b):
     Calculates the area of the area of a rectangle
     a, b (int): width and height
     returns area of a rectangle (int)
+
+    area(10, 5)
+    return: 50
     '''
     return a * b
 
