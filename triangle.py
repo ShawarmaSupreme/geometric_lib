@@ -15,4 +15,20 @@ def perimeter(a, b, c):
     :param c (int): Third side of the triangle
     :return: Perimeter of the triangle (int)
     '''
-    return a + b + c
+    if a > 0 and b > 0 and c > 0:
+        return a + b + c
+    else:
+        return 0
+
+
+import unittest
+
+class circleqweqwe(unittest.TestCase):
+    def test_area_triangle(self):
+        self.assertEqual(area(10, 5), 25)  # ожидаемый результат 50
+    def test_area_zero(self):
+        self.assertEqual(area(10, 0), 0)   # площадь при одной из сторон 0
+    def test_perimeter_triangle(self):
+        self.assertEqual(perimeter(10, 5, 3), 18)  # ожидаемый результат 30
+    def test_perimeter_zero(self):
+        self.assertEqual(perimeter(10, 0, 3), 0)   # периметр при одной из сторон 0
