@@ -2,9 +2,9 @@ name: CI
 
 on:
     push:
-      branches: [ "main" ]
+      branches: [ "new_new_features_408820" ]
     pull_request:
-      branches: [ "main" ]
+      branches: [ "new_new_features_408820" ]
 jobs:
     my_build_job:
       runs-on: ${{ matrix.os }}
